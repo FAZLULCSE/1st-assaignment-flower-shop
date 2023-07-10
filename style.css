@@ -6,9 +6,12 @@ body{
 /* header style */
 .header{
     background-color:rgba(229, 84, 115, 0.10);
+    width: 1920px;
+    height: 850px;
+    margin: 0 auto;
 }
 .banner{
-    padding: 50px 240px 0px;
+    padding: 50px 200px 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,6 +21,7 @@ body{
 }
 .banner >img{
     width: 635px;
+    height: 800px;
 }
 .banner-title{
     margin-bottom: 32px ;
@@ -38,6 +42,8 @@ body{
     border-radius: 8px;
     color: #fff;
 }
+/* flower gallary design */
+
 .featur-total{
     width: 1920px;
     margin: 0 auto;
@@ -90,10 +96,12 @@ body{
 .c >img{
     padding: 67px 75px 0px;
 }
+/* offer section */
 .offer{
     display: flex;
     margin: 0 auto;
     padding: 50px;
+    width: 1922px;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
     align-items: center;
@@ -112,7 +120,7 @@ body{
     color: #272727;
     font-size: 40px;
 }
-.off-highlight{
+.highlight{
     color: #E55473;
 }
 .offer-description{
@@ -121,6 +129,7 @@ body{
     line-height: 30px;
     padding-bottom: 20px;
 }
+/* instagram section */
 .instagram{
     width: 1920px;
     margin: 0 auto;
@@ -146,7 +155,7 @@ body{
     height: 396px;
     padding: 0px 10px;
 }
-
+/* last deal bar */
 .last-deal{
     width: 1440px;
     height: 449px;
@@ -174,4 +183,25 @@ body{
     height: 53px;
     border-radius: 8px;
     background: #FFF;
+}
+/* footer Design */
+
+.footer-content{
+    width: 1922px;
+    height: 449px;
+    padding: 175px;
+    margin: 0 auto;
+    color: #FFF;
+    text-align: center;
+    background-color: rgb(7, 3, 37);
+}
+.footer-heding{
+    font-size: 48px;
+    font-weight: 800;
+}
+.footer-description{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
 }
