@@ -1,0 +1,18 @@
+/* fond style */
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+/* header style */
+.header{
+    background-color:rgba(229, 84, 115, 0.10);
+}
+.banner{
+    padding: 50px 240px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner >img{
+    width: 635px;
+}
