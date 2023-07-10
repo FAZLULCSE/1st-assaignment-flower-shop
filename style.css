@@ -36,11 +36,16 @@ body{
     line-height: 30px;
     color: rgba(39, 39, 39, 0.60);
 }
-.button{
+.btn{
     padding: 20px 43px;
     background-color: #E55473 ;
     border-radius: 8px;
     color: #fff;
+    font-size: 20px;
+}
+.btn:hover{
+    background-color: purple;
+    color: #FFF;
 }
 /* flower gallary design */
 
@@ -78,6 +83,10 @@ body{
     /* border: 2px solid #E55473; */
     border-radius: 230px 230px 0px 0px ;
 }
+.box :hover{
+    box-shadow: 0px 0px 20px gold;
+}
+
 .a{
     background-color: rgba(167, 33, 98, 0.15);
 }
@@ -150,6 +159,10 @@ body{
 .Instagram-photo{
     justify-content: space-around;
 }
+.Instagram-photo :hover{
+    box-shadow: 0px 0px 20px gold;
+}
+
 .Instagram-photo>img{
     width: 342px;
     height: 396px;
